@@ -1,0 +1,11 @@
+baseurl = 'https://h3x0c4t.github.io/'
+languagecode = 'ru-RU'
+paginate = 5
+title = 'H3X0C4T'
+theme = 'hugo-theme-stack'
+
+DefaultContentLanguage = "ru"
+
+hasCJKLanguage = false
+
+googleAnalytics = ""

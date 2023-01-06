@@ -1,0 +1,54 @@
+mainSections = ["post"]
+rssFullContent = true
+favicon = '/favicon.ico'
+
+[footer]
+since = 2023
+
+[sidebar]
+emoji = "😼"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+[sidebar.avatar]
+enabled = true
+local = false
+src = "/av.jpg"
+
+[article]
+math = false
+toc = true
+readingTime = true
+
+## Widgets
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "search"
+
+[[widgets.page]]
+type = "toc"
+
+[colorScheme]
+toggle = true
+default = "auto"
+
+[opengraph.twitter]
+card = "summary_large_image"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+src = "/av.jpg"
+
+[imageProcessing.cover]
+enabled = true
+
+[imageProcessing.content]
+enabled = true

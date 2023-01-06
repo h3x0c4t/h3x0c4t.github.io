@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>wtf on H3X0C4T</title>
+        <link>https://h3x0c4t.github.io/tags/wtf/</link>
+        <description>Recent content in wtf on H3X0C4T</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ru-RU</language>
+        <lastBuildDate>Fri, 06 Jan 2023 04:32:04 +0000</lastBuildDate><atom:link href="https://h3x0c4t.github.io/tags/wtf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Second Post</title>
+        <link>https://h3x0c4t.github.io/p/second-post/</link>
+        <pubDate>Fri, 06 Jan 2023 04:32:04 +0000</pubDate>
+        
+        <guid>https://h3x0c4t.github.io/p/second-post/</guid>
+        <description>&lt;h1 id=&#34;markdown-syntax-guide&#34;&gt;Markdown syntax guide&lt;/h1&gt;
+&lt;h2 id=&#34;headers&#34;&gt;Headers&lt;/h2&gt;
+&lt;h1 id=&#34;this-is-a-heading-h1&#34;&gt;This is a Heading h1&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-a-heading-h2&#34;&gt;This is a Heading h2&lt;/h2&gt;
+&lt;h6 id=&#34;this-is-a-heading-h6&#34;&gt;This is a Heading h6&lt;/h6&gt;
+&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This text will be italic&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;This will also be italic&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This text will be bold&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;This will also be bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You &lt;strong&gt;can&lt;/strong&gt; combine them&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+&lt;h3 id=&#34;unordered&#34;&gt;Unordered&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 2a&lt;/li&gt;
+&lt;li&gt;Item 2b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ordered&#34;&gt;Ordered&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;li&gt;Item 3a&lt;/li&gt;
+&lt;li&gt;Item 3b&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://h3x0c4t.github.io/sample.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;This is a alt text.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;p&gt;You may be using &lt;a class=&#34;link&#34; href=&#34;https://markdownlivepreview.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Markdown Live Preview&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Left columns&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Right columns&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;left foo&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;right foo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;left bar&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;right bar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;left baz&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;right baz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;blocks-of-code&#34;&gt;Blocks of code&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let message = &amp;#39;Hello world&amp;#39;;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;alert(message);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;inline-code&#34;&gt;Inline code&lt;/h2&gt;
+&lt;p&gt;This web site is using &lt;code&gt;markedjs/marked&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
