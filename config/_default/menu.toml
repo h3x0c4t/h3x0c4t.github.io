@@ -3,15 +3,15 @@ main = []
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com"
+url = "https://github.com/h3x0c4t"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "telegram"
+name = "Telegram"
+url = "https://t.me/p0wny1and"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-tg"

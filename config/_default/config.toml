@@ -2,10 +2,13 @@ baseurl = 'https://h3x0c4t.github.io/'
 languagecode = 'ru-RU'
 paginate = 5
 title = 'H3X0C4T'
+description = 'Заметки по ифобезу и не только.'
 theme = 'hugo-theme-stack'
+
+enableRobotsTXT = true
 
 DefaultContentLanguage = "ru"
 
 hasCJKLanguage = false
 
-googleAnalytics = ""
+googleAnalytics = "G-YZ9S2Y2H62"
