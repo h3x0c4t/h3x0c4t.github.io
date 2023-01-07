@@ -7,7 +7,7 @@ since = 2023
 
 [sidebar]
 emoji = "😼"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+subtitle = "Заметки по информационной безопасности и всему тому, что придет в голову."
 
 [sidebar.avatar]
 enabled = true

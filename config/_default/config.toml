@@ -2,7 +2,7 @@ baseurl = 'https://h3x0c4t.github.io/'
 languagecode = 'ru-RU'
 paginate = 5
 title = 'H3X0C4T'
-description = 'Заметки по ифобезу и не только.'
+description = 'Очередной сайт с заметками по информационной безопасности и другим темам.'
 theme = 'hugo-theme-stack'
 
 enableRobotsTXT = true
