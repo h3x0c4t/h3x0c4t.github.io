@@ -1,6 +1,6 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
+description: У меня лапки 🐾
 date: '2019-02-28'
 menu:
     main: 
