@@ -1,4 +1,239 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Автоматизация on H3X0C4T</title><link>https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link><description>Recent content in Автоматизация on H3X0C4T</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Автоматизация on H3X0C4T</title><link>https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link><description>Recent content in Автоматизация on H3X0C4T</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Упрощаем создание и публикацию постов</title><link>https://h3x0c4t.github.io/p/create-posts-easily/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/create-posts-easily/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/cover.png" alt="Featured image of post Упрощаем создание и публикацию постов" />&lt;p>&lt;strong>Это продолжение&lt;/strong> &lt;a class="link" href="https://hexocat.com/p/hugo-github-actions/" target="_blank" rel="noopener"
+>&lt;strong>предыдущей статьи&lt;/strong>&lt;/a>.&lt;/p>
+&lt;h2 id="зачем">Зачем?&lt;/h2>
+&lt;p>Я просто ненавижу тратить время на возню с картинками, организацией папок и т.д.&lt;br>
+Поэтому я решил упростить все это дело, чтобы можно было просто создать папку с единственным файлом и писать, а добавление картинок и т.д. происходило автоматически.&lt;/p>
+&lt;p>После долгих поисков markdown редакторов я решил остановиться на &lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+>visual studio code&lt;/a>.&lt;br>
+В нем есть встроенная поддержка markdown и git, а также плагин для вставки картинок и сохранения их в нужную папку.&lt;/p>
+&lt;h2 id="план">План&lt;/h2>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595.png"
+width="1064"
+height="241"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="План"
+class="gallery-image"
+data-flex-grow="441"
+data-flex-basis="1059px"
+>&lt;/p>
+&lt;h2 id="организация-папок">Организация папок&lt;/h2>
+&lt;p>Создаем папку, отделенную от папки с проектом, в которой мы будем редактировать посты.&lt;br>
+В ней будет еще 2 папки - одна для опубликованных постов, а вторая для черновиков.&lt;/p>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858.png"
+width="353"
+height="116"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Папки"
+class="gallery-image"
+data-flex-grow="304"
+data-flex-basis="730px"
+>&lt;/p>
+&lt;h2 id="установка-плагинов-для-vs-code">Установка плагинов для VS Code&lt;/h2>
+&lt;p>Для автоматического сохранения картинок в папку при их вставке из буфера устанавливаем плагин &lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=hancel.markdown-image" target="_blank" rel="noopener"
+>Markdown Image&lt;/a>.&lt;br>
+Теперь при нажатии &lt;code>Alt + Shift + V&lt;/code> картинка будет сохранена в папку &lt;code>images&lt;/code> и вставлена в текст.&lt;/p>
+&lt;p>Проверьте что у вас такие настройки плагина:&lt;/p>
+&lt;ul>
+&lt;li>Более короткое название файла&lt;br>
+&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657.png"
+width="536"
+height="467"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Настройка 1"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="275px"
+>&lt;/li>
+&lt;li>Сохраняем картинку на диск&lt;br>
+&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393.png"
+width="503"
+height="271"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Настройка 2"
+class="gallery-image"
+data-flex-grow="185"
+data-flex-basis="445px"
+>&lt;/li>
+&lt;li>Имя папки с картинками&lt;br>
+&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726.png"
+width="520"
+height="140"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Настройка 4"
+class="gallery-image"
+data-flex-grow="371"
+data-flex-basis="891px"
+>&lt;/li>
+&lt;/ul>
+&lt;p>Теперь при вставке картинки в текст она будет сохранена в папку &lt;code>images&lt;/code> и вставлена в текст.&lt;/p>
+&lt;p>У меня так же стоит плагин &lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one" target="_blank" rel="noopener"
+>Markdown All in One&lt;/a>, который добавляет несколько горячих клавиш.&lt;br>
+А для автоматического форматирования &lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint" target="_blank" rel="noopener"
+>markdownlint&lt;/a>.&lt;/p>
+&lt;h2 id="автоматическая-публикация">Автоматическая публикация&lt;/h2>
+&lt;blockquote>
+&lt;p>Все дальнейшие действия напрямую связаны с предыдущим &lt;a class="link" href="https://hexocat.com/p/hugo-github-actions/" target="_blank" rel="noopener"
+>постом&lt;/a>, поэтому если вы его не читали, то сначала прочитайте его.&lt;/p>
+&lt;/blockquote>
+&lt;p>Смысл в том, что мы пишем посты в папке с черновиками (в моем случае &lt;code>in-process&lt;/code>), а при переносе в папку с опубликованными постами (в моем случае &lt;code>published&lt;/code>) происходит автоматическая публикация.&lt;/p>
+&lt;p>Создаем файл &lt;code>.gitingore&lt;/code> в корне и добавляем в него папку с черновиками:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">in-process/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Создаем workflow &lt;code>.github/workflows/UpdatePosts.yml&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">UpdatePosts&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-22.04&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Push to repo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">s0/git-publish-subdir-action@v2.6.0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">env&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">REPO&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;SSH-адрес репозитория из предыдущего поста&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">BRANCH&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">FOLDER&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">published&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># имя папки с опубликованными постами&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">SSH_PRIVATE_KEY&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.DEPLOY_PRIVATE_KEY }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">TARGET_DIR&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">content/post&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Далее необходимо создать ssh-ключ для автоматической публикации:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-keygen -t rsa -b &lt;span class="m">4096&lt;/span> -C &lt;span class="s2">&amp;#34;your_email@example.com&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Теперь создаем пустой репозиторий на github и добавляем сгенерированный приватный ключ в секреты репозитория с именем &lt;code>DEPLOY_PRIVATE_KEY&lt;/code>:&lt;/p>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554.png"
+width="1424"
+height="738"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="добавление секрета"
+class="gallery-image"
+data-flex-grow="192"
+data-flex-basis="463px"
+>&lt;/p>
+&lt;p>В репозитории с блогом добавляем сгенерированный публичный ключ в &lt;code>Deploy keys&lt;/code>:&lt;/p>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056.png"
+width="1409"
+height="692"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="добавление публичного ключа"
+class="gallery-image"
+data-flex-grow="203"
+data-flex-basis="488px"
+>&lt;/p>
+&lt;h2 id="создание-и-публикация-нового-поста">Создание и публикация нового поста&lt;/h2>
+&lt;p>Создадим новый пост в папке с черновиками. Структура папки выглядит следующим образом:&lt;/p>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302.png"
+width="356"
+height="113"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Структура папки с черновиками"
+class="gallery-image"
+data-flex-grow="315"
+data-flex-basis="756px"
+>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>В корне находится файл &lt;code>template.md&lt;/code>, который содержит шаблон &lt;code>front matter&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Папка называется так же, как и тэг &lt;code>slug&lt;/code> в &lt;code>front matter&lt;/code> (так будет отображаться путь в URL). Внутри папки находится файл &lt;code>index.md&lt;/code>, который содержит текст поста.&lt;br>
+&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548.png"
+width="787"
+height="182"
+srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Название папки"
+class="gallery-image"
+data-flex-grow="432"
+data-flex-basis="1037px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Картинки автоматически сохраняются в папку &lt;code>images&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>После написания поста просто перетаскиваем его в папку &lt;code>published&lt;/code>.&lt;/p>
+&lt;blockquote>
+&lt;p>Для дальнейшей работы у вас должны быть настроены ssh-ключи доступа (&lt;a class="link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank" rel="noopener"
+>гайд&lt;/a>).&lt;/p>
+&lt;/blockquote>
+&lt;p>Инициализируем репозиторий и пушим:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git add .
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &lt;span class="s2">&amp;#34;first commit&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git branch -M main
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git remote add origin &amp;lt;ssh-адрес репозитория&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push -u origin main
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>После этого, если все сделано правильно, папка &lt;code>published&lt;/code> должна появиться в репозитории с опубликованными постами.&lt;br>
+Затем workflow запустится автоматически и запушит изменения в репозиторий с блогом в папку &lt;code>content/post&lt;/code>.&lt;br>
+После этого можно проверить, что пост опубликовался (если настроен workflow для автоматической публикации из предыдущего поста).&lt;/p>
+&lt;h2 id="результат-в-гифке">Результат в гифке&lt;/h2>
+&lt;p>Теперь весь процесс публикации выглядит так:\&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
 &lt;p>Создаем новый проект: &lt;code>hugo new &amp;lt;название&amp;gt;&lt;/code>&lt;/p>
 &lt;p>На GitHub создаем репозиторий с названием &lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>&lt;/p>
 &lt;blockquote>
