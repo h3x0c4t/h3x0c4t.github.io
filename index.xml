@@ -36,8 +36,9 @@ data-flex-basis="730px"
 Теперь при нажатии &lt;code>Alt + Shift + V&lt;/code> картинка будет сохранена в папку &lt;code>images&lt;/code> и вставлена в текст.&lt;/p>
 &lt;p>Проверьте что у вас такие настройки плагина:&lt;/p>
 &lt;ul>
-&lt;li>Более короткое название файла&lt;br>
-&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657.png"
+&lt;li>Более короткое название файла&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657.png"
 width="536"
 height="467"
 srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_1024x0_resize_box_3.png 1024w"
@@ -46,9 +47,11 @@ alt="Настройка 1"
 class="gallery-image"
 data-flex-grow="114"
 data-flex-basis="275px"
->&lt;/li>
-&lt;li>Сохраняем картинку на диск&lt;br>
-&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393.png"
+>&lt;/p>
+&lt;ul>
+&lt;li>Сохраняем картинку на диск&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393.png"
 width="503"
 height="271"
 srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_1024x0_resize_box_3.png 1024w"
@@ -57,9 +60,11 @@ alt="Настройка 2"
 class="gallery-image"
 data-flex-grow="185"
 data-flex-basis="445px"
->&lt;/li>
-&lt;li>Имя папки с картинками&lt;br>
-&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726.png"
+>&lt;/p>
+&lt;ul>
+&lt;li>Имя папки с картинками&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726.png"
 width="520"
 height="140"
 srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_1024x0_resize_box_3.png 1024w"
@@ -68,8 +73,7 @@ alt="Настройка 4"
 class="gallery-image"
 data-flex-grow="371"
 data-flex-basis="891px"
->&lt;/li>
-&lt;/ul>
+>&lt;/p>
 &lt;p>Теперь при вставке картинки в текст она будет сохранена в папку &lt;code>images&lt;/code> и вставлена в текст.&lt;/p>
 &lt;p>У меня так же стоит плагин &lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one" target="_blank" rel="noopener"
 >Markdown All in One&lt;/a>, который добавляет несколько горячих клавиш.&lt;br>
@@ -189,8 +193,10 @@ data-flex-basis="756px"
 &lt;p>В корне находится файл &lt;code>template.md&lt;/code>, который содержит шаблон &lt;code>front matter&lt;/code>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Папка называется так же, как и тэг &lt;code>slug&lt;/code> в &lt;code>front matter&lt;/code> (так будет отображаться путь в URL). Внутри папки находится файл &lt;code>index.md&lt;/code>, который содержит текст поста.&lt;br>
-&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548.png"
+&lt;p>Папка называется так же, как и тэг &lt;code>slug&lt;/code> в &lt;code>front matter&lt;/code> (так будет отображаться путь в URL). Внутри папки находится файл &lt;code>index.md&lt;/code>, который содержит текст поста.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548.png"
 width="787"
 height="182"
 srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_1024x0_resize_box_3.png 1024w"
@@ -200,10 +206,8 @@ class="gallery-image"
 data-flex-grow="432"
 data-flex-basis="1037px"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Картинки автоматически сохраняются в папку &lt;code>images&lt;/code>.&lt;/p>
-&lt;/li>
+&lt;ul>
+&lt;li>Картинки автоматически сохраняются в папку &lt;code>images&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>После написания поста просто перетаскиваем его в папку &lt;code>published&lt;/code>.&lt;/p>
 &lt;blockquote>
@@ -233,9 +237,11 @@ data-flex-basis="1037px"
 Затем workflow запустится автоматически и запушит изменения в репозиторий с блогом в папку &lt;code>content/post&lt;/code>.&lt;br>
 После этого можно проверить, что пост опубликовался (если настроен workflow для автоматической публикации из предыдущего поста).&lt;/p>
 &lt;h2 id="результат-в-гифке">Результат в гифке&lt;/h2>
-&lt;p>Теперь весь процесс публикации выглядит так:&lt;br>
-&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>.&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
+&lt;p>Теперь весь процесс публикации выглядит так:&lt;/p>
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/ani.gif"
+loading="lazy"
+alt="Результат в гифке"
+>&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
 &lt;p>Создаем новый проект: &lt;code>hugo new &amp;lt;название&amp;gt;&lt;/code>&lt;/p>
 &lt;p>На GitHub создаем репозиторий с названием &lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>&lt;/p>
 &lt;blockquote>
