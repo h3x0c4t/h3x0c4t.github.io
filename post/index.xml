@@ -233,7 +233,9 @@ data-flex-basis="1037px"
 Затем workflow запустится автоматически и запушит изменения в репозиторий с блогом в папку &lt;code>content/post&lt;/code>.&lt;br>
 После этого можно проверить, что пост опубликовался (если настроен workflow для автоматической публикации из предыдущего поста).&lt;/p>
 &lt;h2 id="результат-в-гифке">Результат в гифке&lt;/h2>
-&lt;p>Теперь весь процесс публикации выглядит так:\&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
+&lt;p>Теперь весь процесс публикации выглядит так:&lt;br>
+&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>.&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
 &lt;p>Создаем новый проект: &lt;code>hugo new &amp;lt;название&amp;gt;&lt;/code>&lt;/p>
 &lt;p>На GitHub создаем репозиторий с названием &lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>&lt;/p>
 &lt;blockquote>
