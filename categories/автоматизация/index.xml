@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Автоматизация on H3X0C4T</title><link>https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link><description>Recent content in Автоматизация on H3X0C4T</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://h3x0c4t.github.io/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Упрощаем создание и публикацию постов</title><link>https://h3x0c4t.github.io/p/create-posts-easily/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/create-posts-easily/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/cover.png" alt="Featured image of post Упрощаем создание и публикацию постов" />&lt;p>&lt;strong>Это продолжение&lt;/strong> &lt;a class="link" href="https://hexocat.com/p/hugo-github-actions/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Автоматизация on H3X0C4T</title><link>https://hexocat.com/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</link><description>Recent content in Автоматизация on H3X0C4T</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hexocat.com/categories/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Упрощаем создание и публикацию постов</title><link>https://hexocat.com/p/create-posts-easily/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://hexocat.com/p/create-posts-easily/</guid><description>&lt;img src="https://hexocat.com/p/create-posts-easily/cover.png" alt="Featured image of post Упрощаем создание и публикацию постов" />&lt;p>&lt;strong>Это продолжение&lt;/strong> &lt;a class="link" href="https://hexocat.com/p/hugo-github-actions/" target="_blank" rel="noopener"
 >&lt;strong>предыдущей статьи&lt;/strong>&lt;/a>.&lt;/p>
 &lt;h2 id="зачем">Зачем?&lt;/h2>
 &lt;p>Я просто ненавижу тратить время на возню с картинками, организацией папок и т.д.&lt;br>
@@ -7,10 +7,10 @@
 >visual studio code&lt;/a>.&lt;br>
 В нем есть встроенная поддержка markdown и git, а также плагин для вставки картинок и сохранения их в нужную папку.&lt;/p>
 &lt;h2 id="план">План&lt;/h2>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673140212595.png"
 width="1064"
 height="241"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673140212595_hu39888a5364facac00a3223513cf89cb6_42513_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="План"
 class="gallery-image"
@@ -20,10 +20,10 @@ data-flex-basis="1059px"
 &lt;h2 id="организация-папок">Организация папок&lt;/h2>
 &lt;p>Создаем папку, отделенную от папки с проектом, в которой мы будем редактировать посты.&lt;br>
 В ней будет еще 2 папки - одна для опубликованных постов, а вторая для черновиков.&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673133395858.png"
 width="353"
 height="116"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673133395858_hua7a44ba4ba23a170ba6d2087c1fc8f5d_4654_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Папки"
 class="gallery-image"
@@ -38,10 +38,10 @@ data-flex-basis="730px"
 &lt;ul>
 &lt;li>Более короткое название файла&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673133885657.png"
 width="536"
 height="467"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673133885657_hua0b146050c3a50b38d4ff2a505bf35c1_34840_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Настройка 1"
 class="gallery-image"
@@ -51,10 +51,10 @@ data-flex-basis="275px"
 &lt;ul>
 &lt;li>Сохраняем картинку на диск&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673133954393.png"
 width="503"
 height="271"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673133954393_hu96b67c87b34cdccd210a96ad04bae223_15664_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Настройка 2"
 class="gallery-image"
@@ -64,10 +64,10 @@ data-flex-basis="445px"
 &lt;ul>
 &lt;li>Имя папки с картинками&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673134139726.png"
 width="520"
 height="140"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673134139726_huf71b5103125c65aec00d4a8a9ae32226_10971_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Настройка 4"
 class="gallery-image"
@@ -155,10 +155,10 @@ data-flex-basis="891px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>Теперь создаем пустой репозиторий на github и добавляем сгенерированный приватный ключ в секреты репозитория с именем &lt;code>DEPLOY_PRIVATE_KEY&lt;/code>:&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673137304554.png"
 width="1424"
 height="738"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673137304554_hu0d80e7b4dd49a4746e57db66b355cf52_63829_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="добавление секрета"
 class="gallery-image"
@@ -166,10 +166,10 @@ data-flex-grow="192"
 data-flex-basis="463px"
 >&lt;/p>
 &lt;p>В репозитории с блогом добавляем сгенерированный публичный ключ в &lt;code>Deploy keys&lt;/code>:&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673138116056.png"
 width="1409"
 height="692"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673138116056_hue88554500ea4ee0e394c3baca15bd0f4_45579_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="добавление публичного ключа"
 class="gallery-image"
@@ -178,10 +178,10 @@ data-flex-basis="488px"
 >&lt;/p>
 &lt;h2 id="создание-и-публикация-нового-поста">Создание и публикация нового поста&lt;/h2>
 &lt;p>Создадим новый пост в папке с черновиками. Структура папки выглядит следующим образом:&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673138378302.png"
 width="356"
 height="113"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673138378302_hue9de726b6d498917c58875dbaf0b77ac_4988_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Структура папки с черновиками"
 class="gallery-image"
@@ -196,10 +196,10 @@ data-flex-basis="756px"
 &lt;p>Папка называется так же, как и тэг &lt;code>slug&lt;/code> в &lt;code>front matter&lt;/code> (так будет отображаться путь в URL). Внутри папки находится файл &lt;code>index.md&lt;/code>, который содержит текст поста.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548.png"
+&lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/1673138620548.png"
 width="787"
 height="182"
-srcset="https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_480x0_resize_box_3.png 480w, https://hexocat.com/p/create-posts-easily/images/1673138620548_hu6788f25ec60a9d4c100dbd12a042e99d_23049_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Название папки"
 class="gallery-image"
@@ -241,7 +241,7 @@ data-flex-basis="1037px"
 &lt;p>&lt;img src="https://hexocat.com/p/create-posts-easily/images/ani.gif"
 loading="lazy"
 alt="Результат в гифке"
->&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://h3x0c4t.github.io/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://h3x0c4t.github.io/p/hugo-github-actions/</guid><description>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
+>&lt;/p></description></item><item><title>Автоматизация Hugo с GitHub Actions</title><link>https://hexocat.com/p/hugo-github-actions/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://hexocat.com/p/hugo-github-actions/</guid><description>&lt;img src="https://hexocat.com/p/hugo-github-actions/cover.png" alt="Featured image of post Автоматизация Hugo с GitHub Actions" />&lt;h2 id="до-автоматизации">До автоматизации&lt;/h2>
 &lt;p>Создаем новый проект: &lt;code>hugo new &amp;lt;название&amp;gt;&lt;/code>&lt;/p>
 &lt;p>На GitHub создаем репозиторий с названием &lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>&lt;/p>
 &lt;blockquote>
@@ -268,10 +268,10 @@ alt="Результат в гифке"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>После этого в вашем репозитории должен появиться проект.&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099067534.png"
+&lt;p>&lt;img src="https://hexocat.com/p/hugo-github-actions/images/1673099067534.png"
 width="914"
 height="539"
-srcset="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099067534_hu8c49bc1a941c7825e5c850791973ae78_40340_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099067534_hu8c49bc1a941c7825e5c850791973ae78_40340_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/hugo-github-actions/images/1673099067534_hu8c49bc1a941c7825e5c850791973ae78_40340_480x0_resize_box_3.png 480w, https://hexocat.com/p/hugo-github-actions/images/1673099067534_hu8c49bc1a941c7825e5c850791973ae78_40340_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="Репозиторий"
 class="gallery-image"
@@ -377,10 +377,10 @@ data-flex-basis="406px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>После этого, в разделе &lt;code>Actions&lt;/code> должен появиться новый воркфлоу, а в ветке &lt;code>gh-pages&lt;/code> должен появиться собранный проект.&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098971610.png"
+&lt;p>&lt;img src="https://hexocat.com/p/hugo-github-actions/images/1673098971610.png"
 width="1060"
 height="450"
-srcset="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098971610_huaf68bdd382ca5910f9aea3c53b83ba02_42322_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098971610_huaf68bdd382ca5910f9aea3c53b83ba02_42322_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/hugo-github-actions/images/1673098971610_huaf68bdd382ca5910f9aea3c53b83ba02_42322_480x0_resize_box_3.png 480w, https://hexocat.com/p/hugo-github-actions/images/1673098971610_huaf68bdd382ca5910f9aea3c53b83ba02_42322_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="workflows"
 class="gallery-image"
@@ -388,10 +388,10 @@ data-flex-grow="235"
 data-flex-basis="565px"
 >&lt;/p>
 &lt;p>Теперь, нужно перейти в настройки репозитория и в разделе &lt;code>Pages&lt;/code> выбрать ветку &lt;code>gh-pages&lt;/code> и папку &lt;code>/ (root)&lt;/code>.&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098984772.png"
+&lt;p>&lt;img src="https://hexocat.com/p/hugo-github-actions/images/1673098984772.png"
 width="794"
 height="524"
-srcset="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098984772_hu880968055242dea6d54f48855d4c86ae_37570_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/hugo-github-actions/images/1673098984772_hu880968055242dea6d54f48855d4c86ae_37570_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/hugo-github-actions/images/1673098984772_hu880968055242dea6d54f48855d4c86ae_37570_480x0_resize_box_3.png 480w, https://hexocat.com/p/hugo-github-actions/images/1673098984772_hu880968055242dea6d54f48855d4c86ae_37570_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="gh-pages settings"
 class="gallery-image"
@@ -449,10 +449,10 @@ data-flex-basis="363px"
 &lt;/div>
 &lt;/div>&lt;p>Через некоторое время, сайт будет доступен по вашему домену.&lt;/p>
 &lt;p>Чтобы принудительного включения HTTPS, ставим галочку &lt;code>Enforce HTTPS&lt;/code> в настройках репозитория.&lt;/p>
-&lt;p>&lt;img src="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099036763.png"
+&lt;p>&lt;img src="https://hexocat.com/p/hugo-github-actions/images/1673099036763.png"
 width="1006"
 height="408"
-srcset="https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099036763_hu17e199166415000d6fb845e581613fdc_42579_480x0_resize_box_3.png 480w, https://h3x0c4t.github.io/p/hugo-github-actions/images/1673099036763_hu17e199166415000d6fb845e581613fdc_42579_1024x0_resize_box_3.png 1024w"
+srcset="https://hexocat.com/p/hugo-github-actions/images/1673099036763_hu17e199166415000d6fb845e581613fdc_42579_480x0_resize_box_3.png 480w, https://hexocat.com/p/hugo-github-actions/images/1673099036763_hu17e199166415000d6fb845e581613fdc_42579_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="HTTPS"
 class="gallery-image"
